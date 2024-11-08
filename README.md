@@ -19,7 +19,7 @@ This Chrome extension customizes the ALMA school information system, helping use
 
 1. **Clone or Download** the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/smattsil/alma-highlighter.git
    ```
 2. **Load the extension in Chrome**:
    - Open `chrome://extensions/` in Chrome.
