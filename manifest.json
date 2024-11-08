@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Grade Highlighter for ALMA",
+  "version": "5.0",
+  "description": "Highlights grades on ALMA with colors based on their value.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://cbcs.getalma.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
