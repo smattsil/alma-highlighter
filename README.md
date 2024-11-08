@@ -10,6 +10,11 @@ This Chrome extension customizes the ALMA school information system, helping use
   - Red background for scores below 80%
 - **Class Management**: Removes specific CSS classes from elements for a custom look.
   
+## Screenshots
+<img src="screenshots/home.png" alt="home screen" height="600px" /> 
+<img src="screenshots/classes.png" alt="rankings screen" height="600px" /> 
+<img src="screenshots/subject.png" alt="tools screen" height="600px" />
+
 ## Installation
 
 1. **Clone or Download** the repository:
