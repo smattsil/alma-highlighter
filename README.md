@@ -11,9 +11,9 @@ This Chrome extension customizes the ALMA school information system, helping use
 - **Class Management**: Removes specific CSS classes from elements for a custom look.
   
 ## Screenshots
-<img src="screenshots/home.png" alt="home screen" height="600px" /> 
-<img src="screenshots/classes.png" alt="rankings screen" height="600px" /> 
-<img src="screenshots/subject.png" alt="tools screen" height="600px" />
+<img src="screenshots/home.png" alt="home screen" height="300px" /> 
+<img src="screenshots/classes.png" alt="rankings screen" height="300px" /> 
+<img src="screenshots/subject.png" alt="tools screen" height="300px" />
 
 ## Installation
 
