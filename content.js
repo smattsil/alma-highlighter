@@ -18,8 +18,10 @@ function highlightOverview() {
             const grade = extractNumber(percentElement.textContent);
             if (grade !== null) {
 
-                if (grade > 93) {
-                    element.style.backgroundColor = "#98FB98";
+                if (grade >= 93) {
+                    element.style.backgroundColor = `rgba(144, 238, 144, ${(8-(100-grade))/8})`;
+                } else if (grade > 90) {
+                    element.style.backgroundColor = `rgba(226, 251, 152, ${(8-(93-grade))/4})`;
                 } else if (grade > 87) {
                     element.style.backgroundColor = "#e2fb98";
                 } else {
@@ -49,8 +51,10 @@ function highlightClasses() {
             const grade = extractNumber(percentElement.textContent);
             if (grade !== null) {
 
-                if (grade > 93) {
-                    element.style.backgroundColor = "#98FB98";
+                if (grade >= 93) {
+                    element.style.backgroundColor = `rgba(144, 238, 144, ${(8-(100-grade))/8})`;
+                } else if (grade > 90) {
+                    element.style.backgroundColor = `rgba(226, 251, 152, ${(8-(93-grade))/4})`;
                 } else if (grade > 87) {
                     element.style.backgroundColor = "#e2fb98";
                 } else {
